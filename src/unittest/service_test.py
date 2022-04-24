@@ -1,4 +1,5 @@
-import service
+from src.main.python import service
+
 
 def test_plus():
     assert(service.plus(2, 2) == 4)
