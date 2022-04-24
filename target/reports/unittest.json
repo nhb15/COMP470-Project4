@@ -1,5 +1,10 @@
 {
-  "errors": [],
+  "errors": [
+    {
+      "test": "unittest.loader._FailedTest.service_tests",
+      "traceback": "Traceback (most recent call last):\n  File \"/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/unittest/case.py\", line 59, in testPartExecutor\n    yield\n  File \"/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/unittest/case.py\", line 593, in run\n    self._callTestMethod(testMethod)\n  File \"/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/unittest/case.py\", line 550, in _callTestMethod\n    method()\n  File \"/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/unittest/loader.py\", line 34, in testFailure\n    raise self._exception\nImportError: Failed to import test module: service_tests\nTraceback (most recent call last):\n  File \"/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/unittest/loader.py\", line 154, in loadTestsFromName\n    module = __import__(module_name)\n  File \"/Users/nateboldt/comp479/COMP470-Project4/src/unittest/python/service_tests.py\", line 1, in <module>\n    from src.main.python.project4 import service\nModuleNotFoundError: No module named 'src'\n\n"
+    }
+  ],
   "failures": [],
-  "tests-run": 0
+  "tests-run": 1
 }

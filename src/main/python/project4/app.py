@@ -1,5 +1,5 @@
 from flask import Flask, request
-import service
+from src.main.python.project4 import service
 
 app = Flask(__name__)
 

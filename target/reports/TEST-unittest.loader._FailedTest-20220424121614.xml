@@ -1,11 +1,14 @@
-
-Running tests...
-----------------------------------------------------------------------
-E
-======================================================================
-ERROR [0.004s]: service_tests (unittest.loader._FailedTest)
-----------------------------------------------------------------------
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="unittest.loader._FailedTest-20220424121614" tests="1" file="unittest/loader.py" time="0.002" timestamp="2022-04-24T12:16:15" failures="0" errors="1" skipped="0">
+	<testcase classname="unittest.loader._FailedTest" name="service_tests" time="0.002" timestamp="2022-04-24T12:16:15">
+		<error type="ImportError" message="Failed to import test module: service_tests
 Traceback (most recent call last):
+  File &quot;/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/unittest/loader.py&quot;, line 154, in loadTestsFromName
+    module = __import__(module_name)
+  File &quot;/Users/nateboldt/comp479/COMP470-Project4/src/unittest/python/service_tests.py&quot;, line 1, in &lt;module&gt;
+    from src.main.python import service
+ModuleNotFoundError: No module named 'src'
+"><![CDATA[Traceback (most recent call last):
   File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/unittest/case.py", line 59, in testPartExecutor
     yield
   File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/unittest/case.py", line 593, in run
@@ -19,13 +22,9 @@ Traceback (most recent call last):
   File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/unittest/loader.py", line 154, in loadTestsFromName
     module = __import__(module_name)
   File "/Users/nateboldt/comp479/COMP470-Project4/src/unittest/python/service_tests.py", line 1, in <module>
-    from src.main.python.project4 import service
+    from src.main.python import service
 ModuleNotFoundError: No module named 'src'
 
-
-----------------------------------------------------------------------
-Ran 1 test in 0.026s
-
-FAILED (errors=1)
-
-Generating XML reports...
+]]></error>
+	</testcase>
+</testsuite>
