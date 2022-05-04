@@ -13,15 +13,18 @@ def plus(number1, number2):
     if request.method == 'POST':
         return service.plus(number1, number2)
 
+
 @app.route("/minus", methods=['POST'])
 def minus(number1, number2):
     if request.method == 'POST':
         return service.minus(number1, number2)
 
+
 @app.route("/multiply", methods=['POST'])
 def multiply(number1, number2):
     if request.method == 'POST':
         return service.multiply(number1, number2)
+
 
 @app.route("/divide", methods=['POST'])
 def divide(number1, number2):
