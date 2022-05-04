@@ -8,7 +8,7 @@ use_plugin("python.coverage")
 use_plugin("python.distutils")
 
 
-name = "COMP470-Project4"
+name = "COMP470Project4"
 default_task = "publish"
 
 
