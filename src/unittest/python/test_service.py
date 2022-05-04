@@ -1,4 +1,4 @@
-from COMP470-Project4.src.main.python.project4 import service
+from COMP470Project4.src.main.python.project4 import service
 import unittest
 
 
