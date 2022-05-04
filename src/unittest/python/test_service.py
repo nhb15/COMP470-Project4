@@ -1,5 +1,6 @@
-from COMP470Project4.src.main.python.project4 import service
+# from COMP470Project4.src.main.python.project4 import service
 import unittest
+from main.python.project4 import service
 
 
 class ServiceTest(unittest.TestCase):
